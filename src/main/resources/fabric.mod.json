@@ -1,31 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "log_hardware_info",
   "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Log Hardware Info",
+  "description": "Incorporate hardware information like in crash reports but in the logs",
   "authors": [
-    "Me!"
+    "FederAndInk"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/FederAndInk/log_hardware_info",
+    "sources": "https://github.com/FederAndInk/log_hardware_info"
   },
-
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-
+  "license": "GPL-3.0",
+  "icon": "assets/log_hardware_info/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.unifai.lhi.LogHardwareInfo"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "log_hardware_info.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.14.6",
     "fabric": "*",
