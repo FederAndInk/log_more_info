@@ -1,9 +1,11 @@
-# Fabric Example Mod
+# Log Hardware Info
 
-## Setup
+Tired of asking your users the java flags they use? The memory they have assigned to Minecraft? Or the version of the modpack they are running? Especially when they have no crash reports
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+Well then, all this will be printed in the logs under the `LogHardwareInfo:` section
+
+Modpack information is taken from the [Better Compatibility Checker](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker) mod by reading the `config/bcc.json` file
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Licensed under the [GPLv3](LICENSE)
