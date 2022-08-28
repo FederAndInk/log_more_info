@@ -1,4 +1,4 @@
-package net.unifai.lhi;
+package net.unifai.lmi;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -15,11 +15,11 @@ import com.google.gson.JsonSyntaxException;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.SystemDetails;
 
-public class LogHardwareInfo implements ModInitializer {
+public class LogMoreInfo implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
-	public static final Logger LOGGER = LoggerFactory.getLogger("log_hardware_info");
+	public static final Logger LOGGER = LoggerFactory.getLogger("log_more_info");
 
 	@Override
 	public void onInitialize() {
@@ -29,7 +29,7 @@ public class LogHardwareInfo implements ModInitializer {
 
 		String sysDetails = new SystemDetails().collect();
 		sysDetails = sysDetails.replaceFirst("Java Version: (\\d+)", "Java Version: $1 ");
-		LOGGER.info("LogHardwareInfo:\n" + modpackInfo() + sysDetails);
+		LOGGER.info("LogMoreInfo:\n" + modpackInfo() + sysDetails);
 	}
 
 	private String modpackInfo() {
