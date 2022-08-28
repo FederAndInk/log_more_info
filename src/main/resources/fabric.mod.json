@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "log_hardware_info",
+  "id": "log_more_info",
   "version": "${version}",
-  "name": "Log Hardware Info",
-  "description": "Incorporate hardware information like in crash reports but in the logs",
+  "name": "Log More Info",
+  "description": "Incorporate hardware, system and modpack information like in crash reports but in the logs",
   "authors": [
     "FederAndInk"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/log-hardware-info",
-    "sources": "https://github.com/FederAndInk/log_hardware_info"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/log-more-info",
+    "sources": "https://github.com/FederAndInk/log_more_info"
   },
   "license": "GPL-3.0",
-  "icon": "assets/log_hardware_info/icon.png",
+  "icon": "assets/log_more_info/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.unifai.lhi.LogHardwareInfo"
+      "net.unifai.lmi.LogMoreInfo"
     ]
   },
   "mixins": [
-    "log_hardware_info.mixins.json"
+    "log_more_info.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.14.6",
