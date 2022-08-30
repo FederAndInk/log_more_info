@@ -8,4 +8,4 @@ Modpack information is taken from the [Better Compatibility Checker](https://www
 
 ## License
 
-Licensed under the [GPLv3](LICENSE)
+Licensed under the [LGPLv3](LICENSE)
